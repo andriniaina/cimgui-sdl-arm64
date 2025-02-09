@@ -116,6 +116,7 @@ int main(int argc, char* argv[])
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplSDL2_NewFrame();
     igNewFrame();
+    ImGui_ImplSDLRenderer2_Init(NULL);
 
     if (showDemoWindow)
       igShowDemoWindow(&showDemoWindow);

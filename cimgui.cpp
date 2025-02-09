@@ -11,6 +11,11 @@
 #include "./imgui/imgui_internal.h"
 #include "cimgui.h"
 
+#include "imgui.h"
+#include "imgui/backends/imgui_impl_sdl2.h"
+#include "imgui/backends/imgui_impl_sdlrenderer2.h"
+
+
 
 
 CIMGUI_API ImVec2* ImVec2_ImVec2_Nil(void)
